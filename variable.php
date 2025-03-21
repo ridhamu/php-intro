@@ -7,7 +7,7 @@ $price = 19.99;
 $id_student = true;
 
 echo $name;
-echo "hello, " . $name . "!  You are " . $age . " years old! \n";
+echo "hello, " . $name . "!  You are " . $age . " years old! <br/>";
 $total_price = $price * $age;
 echo $total_price;
 

@@ -13,12 +13,12 @@ $anotherResult = addNumbers(10, 20);
 echo "Another sum is: " . $anotherResult . "\n"; // Output: Another sum is: 30
 
 // Example with no parameters and no return value
-function greet()
+function greet($name)
 {
-    echo "Hello there!\n";
+    echo "Hello there ".$name. "!\n";
 }
 
-greet(); // Output: Hello there!
+greet("ridha"); // Output: Hello there!
 
 // Example with default parameter value
 function greetPerson($name = "Guest")
